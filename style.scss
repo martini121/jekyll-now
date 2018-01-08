@@ -18,22 +18,21 @@ html {
 }
 
 body {
-	background: url("https://i.ytimg.com/vi/UoiOkUuJAlQ/maxresdefault.jpg");
+	background: url("http://wallpapercave.com/wp/TlAHvMl.jpg");
 background-repeat:no-repeat;
 background-attachment: fixed; 
 background-size: 100% 100%;
-	font: 18px/1.4 Garamond;
+	font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 .container {
-  0 4 8 0 ("0, 0, 0, 0.4") {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  background-color:rgba(255, 255, 255, 0.78);
-  
+  background-color:rgba(255, 255, 255, 0.78);	
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -290,6 +289,5 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
-//@import "svg-icons";
-	}}
+@import "highlights";
+@import "svg-icons";
